@@ -1,0 +1,27 @@
+  h3
+  {
+    font-size: 25px !important;
+  }
+  canvas {
+    border:2px dashed black;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes example{
+    from{box-shadow: 1px 1px 38px rgb(170, 129, 129);}
+    to{box-shadow: 1px 1px 38px rgb(107, 84, 84);}
+  }
+#titulo{
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 5px;
+  color: rgb(201, 151, 151);
+}
+.btn-light{
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 5px;
+  color: black;
+}
+.btn-light:hover{
+  color: rgb(187, 87, 87);
+}
